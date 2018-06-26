@@ -1,0 +1,280 @@
+#full-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: ;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#menubar {
+    padding: 0px 50px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    height: 10%;
+    /* justify-items: flex-start; */
+}
+
+.menuitem {
+    padding: 15px;
+}
+
+.menuitem:hover{
+    background-color: slategray;
+}
+
+#main-video-wrapper {
+    overflow: hidden;
+    padding: 0;
+    height: 200%;
+
+}
+
+#welcomeVid {
+    position: absolute;
+    left: 220px;
+    bottom: 180px;
+    margin-bottom: 0px;
+}
+
+#floating-words {
+    background-color: black;
+    margin: 0;
+    position: absolute;
+    bottom:  350px;
+    left: 230px;
+    z-index: 2;
+    width: 28%;
+    border-radius: 25px;
+    opacity: .8;
+}
+
+#save-text {
+    font-size: 400%;
+    padding: 5px 20px 0px 20px;
+    margin-bottom: 0px;
+}
+
+#save-sub-text {
+    padding: 0px 20px 20px 20px;
+    margin-top: 6px;
+}
+
+section {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#section-video {
+    height: 900px;
+    width: 1200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#container-section-title {
+    margin: 0;
+    padding: 0;
+
+
+    z-index: 2;
+
+    background-color: black;
+    opacity: .8;
+
+    border-radius: 10px 10px 10px 10px;
+
+    font-family: Helvetica;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 13%;
+    width: 35%;
+
+
+    position: absolute;
+    left: 16%;
+    bottom: 6%;
+}
+
+
+
+#section-title {
+    font-size: 300%;
+}
+
+#container-option-youth {
+    margin: 0;
+    padding: 0;
+
+
+    z-index: 2;
+
+    background-color: black;
+    opacity: .8;
+
+    border-radius: 10px 10px 10px 10px;
+
+    font-family: Helvetica;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+    width: 22%;
+
+
+    position: absolute;
+    left: 16%;
+    bottom: -12%;
+}
+
+
+
+#youth {
+    font-size: 200%;
+}
+#container-option-adult {
+    margin: 0;
+    padding: 0;
+
+
+    z-index: 2;
+
+    background-color: black;
+    opacity: .8;
+
+    border-radius: 10px 10px 10px 10px;
+
+    font-family: Helvetica;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+    width: 22%;
+
+
+    position: absolute;
+    left: 39%;
+    bottom: -12%;
+}
+
+#adult {
+    font-size: 200%;
+}
+
+#container-option-orgs {
+    margin: 0;
+    padding: 0;
+
+
+    z-index: 2;
+
+    background-color: black;
+    opacity: .8;
+
+    border-radius: 10px 10px 10px 10px;
+
+    font-family: Helvetica;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+    width: 22%;
+
+
+    position: absolute;
+    left: 62%;
+    bottom: -12%;
+
+}
+
+
+#businesses {
+    font-size: 200%;
+}
+
+
+}
+#container-option-youth:hover {
+    opacity: .95;
+    
+}
+#container-option-adult:hover {
+    opacity: .95;
+    
+}
+#container-option-orgs:hover {
+    opacity: .95;
+}
+
+footer {
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
+    position: relative;
+    top:100%;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 10%;
+    z-index: 0;
+}
+
+.img {
+  width: 48%;
+  /* margin-top: 10px; */
+  height: 60px;
+  transition: transform .2s;
+  align-self: center;
+  color: currentColor;
+  opacity: 0.5;
+  text-decoration: none;
+
+}
+.img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
