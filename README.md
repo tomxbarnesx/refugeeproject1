@@ -2,6 +2,8 @@
 
 We believe in the humanity of refugees. Any person facing the situation our brothers and sisters from Syria, West Africa, South Asia now confront would make similar decisions. They would push for a fuller and safer life. The trials they face are enormous, but not impossible. SAVE REFUGEES NOW pledges to support vulnerable families by providing food, clothing, shelter, education and repatriation resources for those in greatest need.
 
+https://static01.nyt.com/images/2016/04/18/blogs/18-lens-refugees-slide-8AS8/18-lens-refugees-slide-8AS8-superJumbo.jpg
+
 ##Getting Started
 Log on to https://saverefugeesnow.com and scroll to down to our interactive *Learn More* section. All the info you need to learn how you can support refugees can be found there.
 
