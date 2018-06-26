@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     width: 1000px;
-    height: ;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +12,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
+    height: 650px;
     width: 100%;
     background-color: black;
     color: white;
@@ -21,7 +20,8 @@ header {
 
 #menubar {
     padding: 0px 50px;
-    margin-top: -150px;
+    margin-top: 0px;
+    /* margin-top: -150px; */
     margin-bottom: 0px;
     display: flex;
     flex-direction: row;
@@ -44,13 +44,9 @@ header {
     overflow: hidden;
     padding: 0;
     height: 200%;
-
 }
 
 #welcomeVid {
-    position: absolute;
-    left: 220px;
-    bottom: 180px;
     margin-bottom: 0px;
 }
 
@@ -58,7 +54,7 @@ header {
     background-color: black;
     margin: 0;
     position: absolute;
-    bottom:  350px;
+    bottom: 150px;
     left: 230px;
     z-index: 2;
     width: 28%;
@@ -102,63 +98,45 @@ section {
 #container-section-title {
     margin: 0;
     padding: 0;
-
-
     z-index: 2;
-
     background-color: black;
     opacity: .8;
-
     border-radius: 10px 10px 10px 10px;
-
     font-family: Helvetica;
     color: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 13%;
     width: 35%;
-
-
     position: absolute;
-    left: 16%;
-    bottom: 6%;
+    left: ;
+    bottom: ;
 }
 
 
 
 #section-title {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #container-option-youth {
     margin: 0;
     padding: 0;
-
-
     z-index: 2;
-
     background-color: black;
     opacity: .8;
-
     border-radius: 10px 10px 10px 10px;
-
     font-family: Helvetica;
     color: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 10%;
     width: 22%;
-
-
     position: absolute;
     left: 16%;
-    bottom: -12%;
+    bottom: -20%;
 }
 
 
@@ -191,7 +169,7 @@ section {
 
     position: absolute;
     left: 39%;
-    bottom: -12%;
+    bottom: -20%;
 }
 
 #adult {
@@ -223,7 +201,7 @@ section {
 
     position: absolute;
     left: 62%;
-    bottom: -12%;
+    bottom: -20%;
 
 }
 
